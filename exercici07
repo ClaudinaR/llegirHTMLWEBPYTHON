@@ -1,0 +1,6 @@
+import requests
+
+response = requests.get('https://www.educem.com')
+print(response.status_code)  # Codi d'estat HTTP de la resposta
+print(response.text)  # Contingut de la resposta com a text
+
